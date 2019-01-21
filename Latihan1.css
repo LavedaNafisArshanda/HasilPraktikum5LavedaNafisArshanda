@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  
+  /* Header */
+  .header {
+    padding: 80px;
+    text-align: center;
+    -webkit-text-fill-color: red;
+    background-image: url(download.jpg);
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  /* top navigation */
+  .topnav {
+    overflow: hidden;
+    background-color: maroon;
+    padding: 15px;
+  }
+  
+  /* topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* color on hover */
+  .topnav a:hover {
+    background-color: maroon;
+    color: black;
+  }
+  
+  
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color:gray;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color:maroon;
+    width: 50%;
+    padding: 10px;
+    text-decoration-color: yellow;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 5px;
+    text-align: center;
+    background: grey;
+    margin-top: 0px;
+  }
+  
+  /* Responsive layout  */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .new {
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
